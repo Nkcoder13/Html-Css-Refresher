@@ -8,6 +8,10 @@
     border: 0;
     margin-bottom: 10px;
     cursor: pointer;
+    transition: opacity 1s;
+  }
+  .uber-button:hover {
+    opacity: 0.7;
   }
 
   .amazon-button {
@@ -19,6 +23,10 @@
     font-weight: 600;
     margin-bottom: 10px;
     cursor: pointer;
+    transition: background-color 1s;
+  }
+  .amazon-button:hover {
+    background-color: rgb(224, 188, 0);
   }
 
   .github-button {
@@ -32,6 +40,9 @@
     margin-bottom: 10px;
     cursor: pointer;
   }
+  .github-button:hover {
+    box-shadow: 0 8px 1px rgba(46, 164, 79, 0.1);
+  }
 
   .bootstrap {
     width: 100px;
@@ -41,11 +52,19 @@
     font-weight: 700;
     margin-bottom: 10px;
     cursor: pointer;
+    transition: backgound-color 0.15s, color 0.15s;
   }
   .button {
     background-color: rgb(121, 82, 179);
     color: white;
     margin-right: 8px;
+  }
+  .bootstrap.button:hover {
+    background-color: rgb(103, 39, 182);
+  }
+  .bootstrap.download:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
   }
   .download {
     background-color: white;
@@ -60,6 +79,7 @@
     font-weight: 700;
     margin-bottom: 10px;
     cursor: pointer;
+    transition: background-color 0.15s;
   }
   .company {
     background-color: rgb(10, 102, 194);
@@ -73,8 +93,18 @@
     background-color: white;
     border: 1px solid rgb(10, 102, 194);
   }
+  .linkedin.company:hover {
+    background-color: rgb(24, 61, 99);
+  }
+  .linkedin.save:hover {
+    background-color: rgb(236, 241, 245);
+    border: 2px solid rgb(10, 102, 194);
+  }
   a {
     color: rgb(0, 113, 133);
+  }
+  a:hover {
+    color: #e67e00;
   }
 
   .heading {
@@ -92,6 +122,7 @@
     border: 0;
     font-weight: 550;
     cursor: pointer;
+    transition: opacity 0.15s;
   }
 
   .cart {
@@ -100,6 +131,14 @@
   }
   .buy {
     background-color: rgb(255, 164, 28);
+  }
+  .btn.cart:hover,
+  .btn.buy:hover {
+    opacity: 0.8;
+  }
+  .btn.cart:active,
+  .btn.buy:active {
+    opacity: 0.5;
   }
 </style>
 
