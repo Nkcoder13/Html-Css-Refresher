@@ -1,0 +1,152 @@
+.tahoma {
+  font-family: Tahoma;
+  font-weight: bolder;
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+
+.sale {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+}
+
+.sale.heading {
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+.sale.red {
+  color: red;
+  font-style: italic;
+  margin-top: 8px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.course {
+  font-family: Verdana;
+}
+.course.heading2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.course.sub {
+  margin-top: 5px;
+  color: gray;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.course.para {
+  margin-top: 18px;
+  width: 300px;
+}
+.btn {
+  font-family: Verdana;
+  background-color: rgb(66, 143, 66);
+  color: white;
+  border: none;
+  padding: 7px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+.shopping {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+}
+.shopping-desc {
+  font-family: Arial;
+  margin-top: 0;
+  margin-left: 80px;
+  font-weight: 500;
+}
+.shopping-link {
+  font-family: Arial;
+  margin-top: 25px;
+  margin-left: 150px;
+  color: rgb(74, 121, 190);
+  font-size: 18px;
+  font-weight: 500;
+}
+.apple {
+  text-align: center;
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.red {
+  color: red;
+  font-size: 16px;
+}
+.btn-buy {
+  margin-left: 450px;
+  font-family: Arial;
+  background-color: #336fdb;
+  color: white;
+  border: none;
+  padding: 6px 17px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+.cost {
+  font-size: 14px;
+}
+.apple.desc {
+  font-size: 36px;
+  font-weight: bold;
+}
+.apple.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.stock-money {
+  font-family: Arial;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.usd {
+  color: #626162;
+  font-size: 18px;
+}
+
+.stock {
+  font-family: Arial;
+  color: #46774b;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.neg {
+  color: #c6413f;
+}
+.stock-msg {
+  color: #626162;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.fc {
+  font-family: Arial;
+  font-weight: lighter;
+}
+.fc-title {
+  margin-bottom: 0;
+}
+.fc-desc {
+  width: 500px;
+  line-height: 1.5;
+  margin-top: 5px;
+}
+.fc-msg {
+  color: #626162;
+  font-weight: 100;
+}
+.fc-user {
+  color: #427bb7;
+}
