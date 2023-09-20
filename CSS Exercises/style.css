@@ -1,6 +1,4 @@
-<!-- CSS SECTION -->
-<style>
-  .uber-button {
+.uber-button {
     background-color: black;
     color: white;
     padding: 10px;
@@ -8,12 +6,13 @@
     margin-bottom: 10px;
     cursor: pointer;
     transition: opacity 1s;
-  }
-  .uber-button:hover {
-    opacity: 0.7;
-  }
+}
 
-  .amazon-button {
+.uber-button:hover {
+    opacity: 0.7;
+}
+
+.amazon-button {
     background-color: rgb(255, 216, 20);
     padding: 5px 50px;
     border-radius: 15px;
@@ -22,12 +21,13 @@
     margin-bottom: 10px;
     cursor: pointer;
     transition: background-color 1s;
-  }
-  .amazon-button:hover {
-    background-color: rgb(224, 188, 0);
-  }
+}
 
-  .github-button {
+.amazon-button:hover {
+    background-color: rgb(224, 188, 0);
+}
+
+.github-button {
     background-color: rgb(46, 164, 79);
     border-radius: 5px;
     padding: 10px 20px;
@@ -36,12 +36,13 @@
     color: white;
     margin-bottom: 10px;
     cursor: pointer;
-  }
-  .github-button:hover {
-    box-shadow: 0 8px 1px rgba(46, 164, 79, 0.1);
-  }
+}
 
-  .bootstrap {
+.github-button:hover {
+    box-shadow: 0 8px 1px rgba(46, 164, 79, 0.1);
+}
+
+.bootstrap {
     padding: 10px 20px;
     border-radius: 3px;
     padding: 10px 18px;
@@ -50,68 +51,81 @@
     margin-bottom: 10px;
     cursor: pointer;
     transition: backgound-color 0.15s, color 0.15s;
-  }
-  .button {
+}
+
+.button {
     background-color: rgb(121, 82, 179);
     color: white;
     margin-right: 8px;
-  }
-  .bootstrap.button:hover {
+}
+
+.bootstrap.button:hover {
     background-color: rgb(103, 39, 182);
-  }
-  .bootstrap.download:hover {
+}
+
+.bootstrap.download:hover {
     background-color: rgb(108, 117, 125);
     color: white;
-  }
-  .download {
+}
+
+.download {
     background-color: white;
     color: rgb(108, 117, 125);
     border: 1px solid rgb(108, 117, 125);
-  }
-  .linkedin {
+}
+
+.linkedin {
     border-radius: 3px;
     border: 0;
     font-weight: 700;
     margin-bottom: 10px;
     cursor: pointer;
     transition: background-color 0.15s;
-  }
-  .company {
+}
+
+.company {
     padding: 10px 50px;
     background-color: rgb(10, 102, 194);
     color: white;
     margin-right: 8px;
-  }
-  .save {
+}
+
+.save {
     padding: 8px 12px;
     border-radius: 35px;
     color: rgb(10, 102, 194);
     background-color: white;
     border: 1px solid rgb(10, 102, 194);
-  }
-  .linkedin.company:hover {
+}
+
+.linkedin.company:hover {
     background-color: rgb(24, 61, 99);
-  }
-  .linkedin.save:hover {
+}
+
+.linkedin.save:hover {
     background-color: rgb(236, 241, 245);
     border: 2px solid rgb(10, 102, 194);
-  }
-  a {
-    color: rgb(0, 113, 133);
-  }
-  a:hover {
-    color: #e67e00;
-  }
+}
 
-  .heading {
+a {
+    color: rgb(0, 113, 133);
+}
+
+a:hover {
+    color: #e67e00;
+}
+
+.heading {
     font-size: 26px;
     font-weight: 800;
-  }
-  .cost {
+}
+
+.cost {
     color: rgb(0, 118, 0);
     font-weight: 700;
-  }
-  .btn {
+}
+
+.btn {
     width: 110px;
     height: 30px;
     border-radius: 15px;
@@ -119,50 +133,41 @@
     font-weight: 550;
     cursor: pointer;
     transition: opacity 0.15s;
-  }
+}
 
-  .cart {
+.cart {
     background-color: rgb(255, 216, 20);
     margin-right: 8px;
-  }
-  .buy {
+}
+
+.buy {
     background-color: rgb(255, 164, 28);
-  }
-  .btn.cart:hover,
-  .btn.buy:hover {
+}
+
+.btn.cart:hover,
+.btn.buy:hover {
     opacity: 0.8;
-  }
-  .btn.cart:active,
-  .btn.buy:active {
+}
+
+.btn.cart:active,
+.btn.buy:active {
     opacity: 0.5;
-  }
-</style>
+}
 
-<h1>Button CSS Exercise</h1>
+.tweet-button {
+    color: white;
+    background-color: #1d9bf0;
+    padding: 9px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
 
-<!-- 2.a Uber Button -->
-<button class="uber-button">Request Now</button> <br />
+.tweet-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
-<!-- 2b. Amazon Button -->
-<button class="amazon-button">Add to Cart</button> <br />
-
-<!-- 2c. Github Button -->
-<button class="github-button">Sign Up</button> <br />
-
-<!-- 2d. Bootstrap Button -->
-<button class="bootstrap button">Get Started</button>
-<button class="bootstrap download">Download</button> <br />
-
-<!-- 2e. Linkedin Button -->
-<button class="linkedin company">Apply on company site</button>
-<button class="linkedin save">Save</button> <br />
-<br />
-
-<!-- 2.f Styling 1.f Exercise -->
-
-<a href="https://www.amazon.in/" target="_blank">Back to Amazon</a>
-<p class="heading">Nike Black Running Shoes</p>
-<p class="cost">$39 - in stock.</p>
-<p>Free delivery from tomorrow.</p>
-<button class="btn cart">Add to Cart</button>
-<button class="btn buy">Buy now</button>
+.tweet-button:active {
+    opacity: 0.7;
+}
