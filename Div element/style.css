@@ -1,0 +1,121 @@
+.red-square {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+}
+
+.green-circle {
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border-radius: 100px;
+}
+
+.service {
+    margin: 20px 0;
+    border: 2px solid rgb(240, 240, 240);
+    padding: 0 0 20px 20px;
+    width: 300px;
+}
+
+.yt-music {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    width: 350px;
+    padding: 10px 15px;
+}
+
+.yt-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.yt-desc {
+    color: grey;
+    font-weight: 500;
+}
+
+.dog-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+p {
+    font-family: Arial;
+    color: rgb(100, 100, 100);
+    font-size: 18px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 0 80px 0 10px;
+}
+
+.btn {
+    background-color: #448ED6;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 7px 16px;
+    border: 0;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-left: 110px;
+}
+
+.cat-design {
+    padding: 10px 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 8px rgba(169, 169, 169, 0.4);
+    width: 500px;
+    border-radius: 5px;
+}
+
+.cat-profile {
+    margin: 50px 0;
+    box-shadow: 0 0 8px rgba(169, 169, 169, 0.4);
+    width: 200px;
+    display: inline-block;
+}
+
+.profile-pic {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.name {
+    color: black;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+.friends {
+    color: grey;
+    margin: 6px 0 0 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.add {
+    margin: 10px;
+    background-color: #3975E9;
+    color: rgb(240, 240, 240);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.red {
+    position: relative;
+}
+
+.green {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
